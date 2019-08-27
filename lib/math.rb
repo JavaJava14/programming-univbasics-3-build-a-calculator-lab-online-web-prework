@@ -1,35 +1,23 @@
 def addition(num1, num2)
-  add = 5 + 4
-  puts "#{num1+num2}"
-  return add
+  num1 + num2
 end
 
 def subtraction(num1, num2)
-  subtract = 10 - 5
-  puts "#{num1-num2}"
-  return subtract
+  num1 - num2
 end
 
 def division(num1, num2)
-  divide = 50 / 2
-  puts "#{num1/num2}"
-  return divide
+  num1 / num2
 end
 
 def multiplication(num1, num2)
-  multiply = 4 * 30
-  puts "#{num1*num2}"
-  return multiply
+  num1 * num2
 end
 
 def modulo(num1, num2)
-  remainder = 34 % 5
-  puts "#{num1%num2}"
-  return remainder
+  num1 % num2
 end
 
 def square_root(num)
-  caret = Math.sqrt(81)
-  puts "#{Math.sqrt(num)}"
-  return caret
+  Math.sqrt(num)
 end
