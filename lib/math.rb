@@ -29,7 +29,5 @@ def modulo(num1, num2)
 end
 
 def square_root(num)
-  caret = Math.sqrt(81)
-  puts "#{Math.sqrt(num)}"
-  return caret
+  Math.sqrt(num)
 end
